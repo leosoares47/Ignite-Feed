@@ -20,3 +20,51 @@ body {
   width: 64px;
   height: 60px;
 }
+
+.sectionp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 160px;
+  width: 256px;
+  height: 100%;
+  margin-top: 32px;
+  color: #e1e1e6;
+  background: #202024;
+}
+.sectionp img {
+  margin-top: 40px;
+  width: 60px;
+  height: 60px;
+  border: 2px solid #00b37e;
+  border-radius: 6px;
+}
+.sectionp p {
+  color: #8d8d99;
+}
+.sectionp button {
+  display: flex;
+  gap: 10px;
+  background: #202024;
+  padding: 16px 16px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #00b37e;
+  border: 1px solid #00b37e;
+  border-radius: 8px;
+  width: 192px;
+  height: 50px;
+  margin-bottom: 32px;
+}
+.separator {
+  border-bottom: 1px solid #323238;
+  margin-bottom: 24px;
+  width: 100%;
+}
+.sectionp button img {
+  margin-top: 0;
+  width: 20px;
+  height: 20px;
+  border: none;
+}
